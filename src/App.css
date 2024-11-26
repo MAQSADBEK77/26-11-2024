@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  max-width: 1312px;
+  margin: 0 auto;
+}
+
+.human-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.human-data-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 30px;
+}
+
+.human-data-right {
+  display: flex;
+  justify-content: space-between;
+}
+.human-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.face {
+  width: 216px;
+  height: 288px;
+}
+.face img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.human-data-left .fullName {
+  text-wrap: nowrap;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.human-data-left .fullName .first-name {
+  font-weight: 600;
+}
+.human-data-left .fullName .lastName {
+  font-weight: 400;
+}
+.birthData p span {
+  font-weight: 500;
+}
+.personalData {
+  display: flex;
+  justify-content: space-between;
+  line-height: 24px;
+}
+.personalData p {
+  display: flex;
+  flex-direction: column;
+}
+.personalData span {
+  font-weight: 500;
+}
+.human-data-right {
+  font-style: 17px;
+  max-width: 421px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.chart-component {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.chart-norm {
+  max-width: 70px;
+  position: relative;
+}
+.chart-norm span {
+  font-size: 12px;
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.chart-percentage {
+  font-weight: bold;
+}
+.chart-carts {
+  max-width: 644px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.cart {
+  max-width: 198px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.chart-percentage {
+  text-align: center;
+  margin: 0 auto;
+}
+.chart-p {
+  margin: 0 auto;
+  font-size: 12px;
+  color: #495057;
+  text-align: center;
+  max-width: 130px;
+}
+.chart-center h3 {
+  font-size: 55px;
+  font-weight: 500;
+  color: #0956af;
+}
+.chart-natija {
+  position: relative;
+  width: 264px;
+  height: 45px;
+  background-color: #dee2e6;
+}
+.chart-natija span {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #28a264;
+}
+.chart-natija {
+  font-size: 25px;
+  position: relative;
+  z-index: 5;
+}
