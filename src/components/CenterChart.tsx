@@ -2,9 +2,7 @@ import { LineChart } from "@mui/x-charts";
 import { useFetch } from "../hooks/useFetch";
 
 function CenterChart() {
-  let { data, isPending, error } = useFetch(
-    "https://trello.vimlc.uz/professional"
-  );
+  let { data } = useFetch("https://trello.vimlc.uz/professional");
   console.log(data);
   if (data) {
     let parents = data.percents;
